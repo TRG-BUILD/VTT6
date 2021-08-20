@@ -1,0 +1,3 @@
+"""
+    INDLÆS FRA MOODLE
+"""
