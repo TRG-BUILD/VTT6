@@ -1,1 +1,22 @@
-COPY PASTE FRA MOODLE
+    Brug pdAdmin Indlæs data og leg med nogle simple forespørgsler.
+    Lav en table bil: ved at køre, import derefter bil_import.csv til denne
+
+    CREATE TABLE public.bil_import
+    (
+        id serial primary key,
+        manufacturer varchar(255),
+        model varchar(255),
+        fuel varchar(255),
+        km_pr_aar varchar(255),
+        indregistreret_aar varchar(255)
+    );
+
+        Tjek dine data via SELECT forespørgsler
+            Bemærk datatyperne!
+            Felternes indhold? (eg: "Vw ", " Vww", " 1,234")
+        Rens data for fejl
+        Strukturer datatyper, lav en ny tabel og indsæt de rensede data
+            Indsæt en manglende bil i datasættet: 
+                Id: 1923, Manufactor: Kia, Model: Yaris, Drivmiddel: El, KmPrAar: 7500, Årgang: 2016
+        Gentag din forespørgsler, er der andre ting?
+            Normalisering?
