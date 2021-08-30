@@ -35,7 +35,7 @@
     3: Brug lister til at repræsentere multiplikationstabellen og loops til at gå gennem den
     4: Brug conditionals til at udregn det tiende ciffer hvis kun et 9 ciffer CPR er givet,
         og ellers vurdere om et CPR nummer er validt, hvis 10 cifre er givet.
-    5: Omdan den kode du har lavet til en funktion, som tager et 9 eller 10 ciffer CPR nummer ind som parameter.
+    5: Omdan den kode du har lavet til en funktion, som tager et 9 eller 10 ciffer CPR nummer ind som parameter
 
     Sammenlign koden på tværs af hinanden, og afprøv den evt. på folk du kender
 """
