@@ -1,2 +1,0 @@
-Mere avanceret behandling med integration af Postgres og Pandas
-Rotering af billeder fra Ruba

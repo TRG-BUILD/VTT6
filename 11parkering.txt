@@ -1,1 +1,0 @@
-Et datasæt med parkeringspladser, hvor der skal udregnes hvor lang tid biler holder i gennemsnit

@@ -119,8 +119,44 @@ print("Has a length of: ", length_of_something)
 # pandas
 import pandas as some_pd
 
+some_dictonary = {
+    "Column1": ["Item1Row1", "Item5Row2", "Item9Row3"],
+    "Column2": ["Item2Row1", "Item6Row2", "Item10Row3"],
+    "Column3": ["Item3Row1", "Item7Row2", "Item11Row3"],
+    "Column4": ["Item4Row1", "Item8Row2", "Item12Row3"]
+}
+
+some_dataframe = some_pd.DataFrame(some_dictonary)
+print("Printing the whole dataframe")
+print(some_dataframe)
+some_dataframe.index = ["First", "Second", "Third"]
+print("Showing the changed index")
+print(some_dataframe)
+print("Indexing from the second row up to but not including the fourth row")
+print(some_dataframe[1:4])
+print("Getting the first rows, either through the named index, or by looking for the first element")
+print(some_dataframe.loc["First"])
+print(some_dataframe.iloc[0])
+print("Getting multiple rows, by passing a list of index names instead")
+print(some_dataframe.loc[["First", "Second"]])
+print("Getting a single label, by passing an index and a column")
+print(some_dataframe.loc["First", "Column2"])
+print("Importing from Comma Seperated Files (.csv) instead")
+print("decimal=',' gives danish decimal notation, and headers gives the column names")
+some_column_names = ["Id", "Manufactor", "Model", "Drivmiddel", "KmPrÅr", "Årgang"]
+some_car_data = some_pd.read_csv("dataset/bil_import.csv", decimal=",", sep=";", names=some_column_names)
+print(some_car_data[100:130])
+print("Show some descriptions of the data")
+print(some_car_data.describe())
+
 # Use the given link for a basic introduction to pandas:
 # https://www.learnpython.org/en/Pandas_Basics
+
+# matplotlib
+import matplotlib.pyplot as some_plot
+
+# Use the given link for a basic introduction to matplotlibs pyplot package
+# https://matplotlib.org/stable/tutorials/introductory/pyplot.html
 
 # geopandas
 
@@ -129,12 +165,6 @@ import pandas as some_pd
 
 # Use the given link to get to know geopandas
 # https://geopandas.org/index.html
-
-# matplotlib
-import matplotlib.pyplot as some_plot
-
-# Use the given link for a basic introduction to matplotlibs pyplot package
-# https://matplotlib.org/stable/tutorials/introductory/pyplot.html
 
 # requests
 import requests
