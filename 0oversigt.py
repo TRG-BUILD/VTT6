@@ -15,11 +15,11 @@
 
 # Strings
 print("AT STRINGS")
-"This is a string"
+'This is a string'
 print("Strings can be printed to the terminal")
 print("Everything inside the parentheses will be written, if its a string")
 print("Strings can be " + "concatenated " + " which means put together from multiple strings")
-print("You can also make strings using 'these' inside")
+print('You can also make strings using "these" inside')
 print('Python doesnt care whether its single quote or double quote (like these """) ')
 print("You can find where a given word starts in a string with the find method")
 print("The word Hello occurs at the 5. place in this: ", "Well Hello There!".find("Hello"))
@@ -31,7 +31,7 @@ print("Addition: " + str(5 + 5))
 print("Subtraction" + str(5 - 5))
 print("Multiplication " + str(5 * 5))
 print("Division " + str(5 / 5))
-print("Modulo (keeping the remainder of a division) " + str(5 % 5))
+print("Modulo (keeping the remainder of a division) " + str(8 % 5))
 
 # Bools
 print("AT BOOLS")
@@ -39,7 +39,7 @@ print("Bools are values that are either ", True, " or ", False)
 print("Equality: ", 5 == 5)
 print("Equality: ", "Hello" == "Hello")
 print("Comparison", 5 > 10)
-print("Comparison", 5 <= 5)
+print("Comparison", 6 <= 5)
 
 """ Data Structures """
 
@@ -86,8 +86,19 @@ elif(True):
     print("DoThis")
 elif(True):
     print("This won't happen, since the previous if statement is true")
+    print("Hello")
+    print("Hello")
+    print("Hello")
+    print("Hello")
+    print("Hello")
+    print("Hello")
 else:
     print("If everything fails, do this")
+    print("Hello")
+    print("Hello")
+    print("Hello")
+    print("Hello")
+print("Hello")
 
 # Loops
 print("AT LOOPS")

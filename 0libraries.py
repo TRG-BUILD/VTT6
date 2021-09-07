@@ -90,6 +90,7 @@ some_response = requests.get('https://dawa.aws.dk/adresser', params=some_payload
 
 # The data is in json format (an internet standard), so have to be convertedd to a dictionary in python
 some_dictionary_data = some_response.json()
+print(some_dictionary_data[0])
 
 # We can also directly see the url which can be copy/pasted into a browser
 print(some_response.url)
@@ -106,10 +107,10 @@ print("AT PSYCOPG2")
 import psycopg2
 
 connect_to_database = psycopg2.connect(
-    dbname="pshare",
+    dbname="vttt",
     host="localhost",
     user="postgres",
-    password="Mimtop9?"
+    password="changeme"
 )
 cursor = connect_to_database.cursor()
 # Create Table

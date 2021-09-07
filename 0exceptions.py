@@ -5,10 +5,13 @@
     Its either at the line which the Syntax Error says, or the line before it typically (a missing comma / letter are the usual errors)
 """
 
+var = 5
+var2  = "5"
+
 try:
-    some_number = 5 + "5"
-except TypeError as e:
-    print(e)
+    some_number = var + var2
+except TypeError as some_e:
+    print(some_e)
     print("You can't put different data types together")
     print("You need to make a conversion, like: ", 5 + int("5"))
     print("Or this: ", str(5) + "5")
