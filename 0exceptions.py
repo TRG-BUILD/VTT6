@@ -5,11 +5,10 @@
     Its either at the line which the Syntax Error says, or the line before it typically (a missing comma / letter are the usual errors)
 """
 
-var = 5
-var2  = "5"
-
 try:
-    some_number = var + var2
+    some_var1 = 5
+    some_var2 = "5"
+    some_number = some_var1 + some_var2
 except TypeError as some_e:
     print(some_e)
     print("You can't put different data types together")
