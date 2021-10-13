@@ -24,13 +24,13 @@
     Man tager så til sidst 11 - rest tallet (11 -6 = 5), hvilket giver det endelige ciffer.
     CPR: 110150 123X -> 110150 1235
 
-    Denne udregning gælder for alle valide CPR numre før 2007, og i kan dermed tjekke jeres eget CPR.
+    Denne udregning gælder for alle valide CPR numre udstedt før 2007, og i kan dermed tjekke jeres eget CPR.
 
     I skal herunder skrive et python program der laver den udregning.
     Der bliver stillet 5 opgaver, hvor i gradvist udbygger jeres algoritme. Lav opgaverne i rækkefølge.
     Se i "0oversigt.py" filen, for en hurtig reference.
 
-    1: Ved brug af basale datatyper og variable, lav udregningen for dit CPR nummer, og print det tiende ciffer.
+    1: Ved brug af basale datatyper og variable, lav udregningen for dit 10. CPR nummer. Husk at print det!
     2: Gem dit CPR nummer som en streng i en variabel, og brug den istedet for.
     3: Brug lister til at repræsentere multiplikationstabellen og loops til at gå gennem den
     4: Brug conditionals til at udregn det tiende ciffer hvis kun et 9 ciffer CPR er givet,

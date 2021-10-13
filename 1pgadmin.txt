@@ -11,12 +11,12 @@
         indregistreret_aar varchar(255)
     );
 
-        Tjek dine data via SELECT forespørgsler
-            Bemærk datatyperne!
-            Felternes indhold? (eg: "Vw ", " Vww", " 1,234")
-        Rens data for fejl
-        Strukturer datatyper, lav en ny tabel og indsæt de rensede data
-            Indsæt en manglende bil i datasættet: 
-                Id: 1923, Manufactor: Kia, Model: Yaris, Drivmiddel: El, KmPrAar: 7500, Årgang: 2016
-        Gentag din forespørgsler, er der andre ting?
-            Normalisering?
+        1. Tjek dine data via SELECT forespørgsler
+           Bemærk datatyperne!
+        2. Se Felternes indhold? (eg: "Vw ", " Vww", " 1,234")
+        3. Rens data for fejl
+        4. Strukturer datatyper, lav en ny tabel og indsæt de rensede data
+        5. Indsæt en manglende bil i datasættet:
+           Id: 1923, Manufactor: Kia, Model: Yaris, Drivmiddel: El, KmPrAar: 7500, Årgang: 2016
+        6. Gentag din forespørgsler, er der andre ting?
+           Normalisering?

@@ -1,0 +1,5 @@
+Begynder pandas eksempel.
+98 datasæt, hvor der basalt skal loades ind og manipuleres med.
+
+Ændrer ved filnavn
+Ændrer ved kollonenavne og gem igen

@@ -8,12 +8,12 @@ try:
     import psycopg2
     import requests
 
-    """connect_to_database = psycopg2.connect(
+    connect_to_database = psycopg2.connect(
         dbname="vttt",
         host="localhost",
         user="postgres",
         password="changeme"
-    )"""
+    )
 
     print("Alt korrekt installeret")
 except Exception as e:
