@@ -1,8 +1,0 @@
-Fortsat arbejde med SQL opgave med ITSplatformsdata.
-
-Den nye "trips" tabel, indeholder en kollonne med datatypen geometry. 
-Med denne datatype, har vi en række funktioner til at udtrække informationer om geometrien. 
-https://postgis.net/docs/manual-3.0/reference.html
-
-Nye opgaver præsenteres og der skal suppleres med endnu en tabel med data. 
-Denne gang en geopackage (trips_vttt.gpkg) i skal importere og bearbejde.
