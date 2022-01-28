@@ -162,3 +162,5 @@ cython_debug/
 
 # Mongo Explorer plugin:
 .idea/mongoSettings.xml
+.DS_Store
+
