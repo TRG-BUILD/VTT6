@@ -1,0 +1,27 @@
+Nummerplader, giver en unik idenfikation af det enkelte køretøj. Derfor bruges det i alt fra betalingssystemer
+til trafiktællinger.
+I opgaven her, skal i lave en algoritme, der tjekker om en givent nummerplade er korrekt.
+Dette skal gøres ved at udfylde logikken i filen pladelib.py, der vil blive til et bibliotek der kan bruges både til at
+tjekke en enkelt nummerplade, men også til at importere i et andet program der løber en række igennem.
+
+I denne mappe finder i
+pladelib.py # Skelet til jeres arbejde
+data/input.csv  # Datafil med output fra OpenALPR (https://github.com/openalpr/openalpr)
+test_pladelib.py # Kan bruges til at validere jeres pladelib.py
+alpr_analysis.py # Skelet til jeres program for behandling af input.csv
+
+
+Prøv svar på disse spørgsmål selv eller I grupper før du starter:
+
+* Hvilken datatype er den enkelte nummerplade input plate?
+* Hvad for nogle methods af datatypen kan vi bruge til at teste om det indholder kun heltal eller bogstaver, osv
+* Hvordan finder vi længden af en string f.eks. "psdfm34WTLS"?
+* Hvordan finder vi f.eks. tredje karakter I string "ABCDEF"?
+
+Prøv svare på disse spørgsmål selv eller I gruppen efter du er færdig:
+
+* Hvad er fordelen ved at opdele din analyse i små funktioner eller biblioteker?
+** Finde fejl (også kaldet debug)
+** Kommunikere, forklare hvad koden gør
+** Genbruge koden til andre projekter med lignede mål
+** Arbejde I grupper på den samme code projekt
