@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import helpers
 
-# 1) read the config file, create variables from dict entries 
+# 1) read the config file, create variables from dict entries
 #  if necessary
 
 ###---YOUR SOLUTION HERE-----------------------------------

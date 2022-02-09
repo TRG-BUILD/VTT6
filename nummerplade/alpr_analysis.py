@@ -4,8 +4,6 @@ import argparse
 
 
 def clean_input(file):
-    '''Open input file and remove empty frames and return a list of list'''
-
     """
     Open input file and remove empty frames and parse frames with input for returning af list of list
     inputs:
@@ -42,6 +40,7 @@ def get_seen_plates(validated, least_seen=4):
         seen_plates - Dictionary idea for scructure: seen_plates['AA12345'] = { 'count': 22, 'first_seen': 22, 'last_seen': 25}
     """
 
+
 def save_to_csv(output):
     """
     Count how many times a plate have been seen, and return plates seen enough times to accept the result
@@ -52,5 +51,6 @@ def save_to_csv(output):
         None (file as csv)
     """
 
+
 if __name__ == "__main__":
-    ''' Skriv programmet, så i kan importere data fra en csv fil og gemme i en ny'''
+    """Skriv programmet, så i kan importere data fra en csv fil og gemme i en ny"""

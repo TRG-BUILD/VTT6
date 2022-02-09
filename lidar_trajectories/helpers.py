@@ -6,6 +6,7 @@ def data_to_tracks(datadict):
     tracks = None
     return tracks
 
+
 def det_region_to_utm(region, angle, origin):
     """
     Converts the detection region from sensor coordinates
@@ -19,6 +20,7 @@ def det_region_to_utm(region, angle, origin):
     """
     region_utm = None
     return region_utm
+
 
 def track_to_utm(track, angle, origin):
     """
