@@ -24,6 +24,10 @@ CREATE TABLE uheldsdata_import (
 	y varchar(255)
 );
 
+COPY uheldsdata_import --(name, tags, alcohol, brewery, id, brewery_id, image)
+FROM '/fullpath/to/your/pycharmprojects/uheld/data/uheld_fake.csv'
+DELIMITER ',' csv header;
+
 -- 2. Få et overblik over dine data
 --  * Bør datatyperne være sat anderledes end varchar?
 --  * Hvad bør ændes?
