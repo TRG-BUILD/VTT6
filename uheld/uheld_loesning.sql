@@ -2,7 +2,7 @@
 
 EEn stor del af trafiksikkerhedsarbejdet er arbejdet med uheldsdata. Den officielle uheldsstatistik laves med uheldsdata fra Politiets registreringer der kan findes i vejman.dk.
 
-Trafikforskningsgruppen, har et mål om at få afdækket uheld breddere end politiet data. Det sker bl.a. ved at kigge på landpatientregistret.
+Trafikforskningsgruppen, har et mål om at få afdækket uheld bredere end politiet data. Det sker bl.a. ved at kigge på landpatientregistret.
 
 I skal forestille jer at data er kommet fra et andet system, hvor der ikke har været krav til datatyperne. Derfor skal i først importere jeres data til jeres database, lave udtræk der identificere fejl og lave en datavask for derefter at konvertere dem til korrekte datatyper. Når data er korrekte, så kan der laves nogle statistiske udtræk.
 
@@ -29,6 +29,7 @@ FROM '/fullpath/to/your/pycharmprojects/uheld/data/uheld_fake.csv'
 DELIMITER ',' csv header;
 
 -- 2. Få et overblik over dine data
+-- Spørg jer selv:
 --  * Bør datatyperne være sat anderledes end varchar?
 --  * Hvad bør ændes?
 

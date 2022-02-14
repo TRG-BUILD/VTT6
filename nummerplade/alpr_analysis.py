@@ -43,13 +43,25 @@ def get_seen_plates(validated, least_seen=4):
 
 def save_to_csv(output):
     """
-    Count how many times a plate have been seen, and return plates seen enough times to accept the result
+    Save result of seen licenseplates to file
 
     inputs:
         seen_plates - Dictonary of plates seen, and when it have been seen
     output:
         None (file as csv)
     """
+
+def save_to_db(output):
+    """
+    Count how many times a plate have been seen, and return plates seen enough times to accept the result
+    Remeber to create table in database
+
+    inputs:
+        seen_plates - Dictonary of plates seen, and when it have been seen
+    output:
+        None (INSERT query to postgresql)
+    """
+
 
 
 if __name__ == "__main__":
