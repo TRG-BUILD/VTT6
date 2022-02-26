@@ -33,7 +33,6 @@ DELIMITER ',' csv header;
 --  * Bør datatyperne være sat anderledes end varchar?
 --  * Hvad bør ændes?
 
-Select 2*2
 
 -- 3. Rens data
 -- 3a. Opret en ny tabel, kaldet uheldsdata, (se spg 1) med de korrekte datatyper
