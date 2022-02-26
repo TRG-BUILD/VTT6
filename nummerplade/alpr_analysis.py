@@ -53,8 +53,7 @@ def save_to_csv(output):
 
 def save_to_db(output):
     """
-    Count how many times a plate have been seen, and return plates seen enough times to accept the result
-    Remeber to create table in database
+    Create connection to database, save licenseplate and framenumber.
 
     inputs:
         seen_plates - Dictonary of plates seen, and when it have been seen
