@@ -162,5 +162,7 @@ cython_debug/
 
 # Mongo Explorer plugin:
 .idea/mongoSettings.xml
+
+# MacOS
 .DS_Store
 
