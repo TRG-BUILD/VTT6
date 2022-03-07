@@ -17,6 +17,7 @@ def is_length_ok(plate):
     check whether the length of the plate is according to the rules
     """
     # YOUR SOLUTION GOES HERE
+    print("hej", plate)
     return False
 
 
