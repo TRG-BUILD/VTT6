@@ -8,7 +8,7 @@ def clean_input(file) -> list[list[Any]]:
     """
     Open input file and remove empty frames and parse frames with input for returning af list of list
     inputs:
-        file - Input file, coming from openALPR
+        file - Input file, coming from anpr-unstra
     output:
         cleaned_input - List of plates, with frame nummer aka a list(list(frame, plate))
     """
