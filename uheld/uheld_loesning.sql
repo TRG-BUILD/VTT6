@@ -24,7 +24,7 @@ CREATE TABLE uheldsdata_import (
 	y varchar(255)
 );
 
-COPY uheldsdata_import --(name, tags, alcohol, brewery, id, brewery_id, image)
+COPY uheldsdata_import (egenpart, dato, alder, x, y)
 FROM '/fullpath/to/your/pycharmprojects/uheld/data/uheld_fake.csv'
 DELIMITER ',' csv header;
 
