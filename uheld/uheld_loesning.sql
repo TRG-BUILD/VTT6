@@ -26,7 +26,7 @@ CREATE TABLE uheldsdata_import (
 );
 
 COPY uheldsdata_import (egenpart, dato, alder, x, y)
-FROM '/fullpath/to/your/pycharmprojects/uheld/data/uheld_fake.csv'
+FROM '/fullpath/to/your/PycharmProjects/VTT6/uheld/data/uheld_fake.csv'
 DELIMITER ',' csv header;
 
 -- 2. Få et overblik over dine data
