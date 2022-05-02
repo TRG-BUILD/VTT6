@@ -1,6 +1,6 @@
 /*
 
-EEn stor del af trafiksikkerhedsarbejdet er arbejdet med uheldsdata. Den officielle uheldsstatistik laves med uheldsdata fra Politiets registreringer der kan findes i vejman.dk.
+Een stor del af trafiksikkerhedsarbejdet er arbejdet med uheldsdata. Den officielle uheldsstatistik laves med uheldsdata fra Politiets registreringer der kan findes i vejman.dk.
 
 Trafikforskningsgruppen, har et mål om at få afdækket uheld bredere end politiet data. Det sker bl.a. ved at kigge på landpatientregistret.
 
@@ -17,6 +17,7 @@ I skal i denne opgave arbejde i pgAdmin
 -- 1b. Import din CSV fil
 
 CREATE TABLE uheldsdata_import (
+	id serial primary key,
 	egenpart varchar(255),
 	dato varchar(255),
 	alder varchar(255),
