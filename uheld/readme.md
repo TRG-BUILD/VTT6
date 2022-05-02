@@ -13,7 +13,7 @@ I skal i denne opgave arbejde i pgAdmin
 
 ```sql
 CREATE TABLE uheldsdata_import (
-  id serial primary key,
+	id serial primary key,
 	egenpart varchar(255),
 	dato varchar(255),
 	alder varchar(255),
@@ -24,7 +24,7 @@ CREATE TABLE uheldsdata_import (
 
 ```sql
 COPY uheldsdata_import (egenpart, dato, alder, x, y)
-FROM '/fullpath/to/your/pycharmprojects/uheld/data/uheld_fake.csv'
+FROM '/fullpath/to/your/PycharmProjects/VTT6/uheld/data/uheld_fake.csv'
 DELIMITER ',' csv header;
 ```
 
