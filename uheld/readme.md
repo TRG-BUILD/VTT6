@@ -8,8 +8,7 @@ I skal i denne opgave arbejde i pgAdmin
 
 ```mermaid
 flowchart LR;
-    A[Import Data]-->B(Undersog Data);
-    B-->C{Decision};
+    A[Import Data]-->C{Undersog Data};
     C-->|Forkert datatype| d[Ret] --> z;
     C-->|Korrekt data| e[Kopier] --> z;
     C-->|Forbudte tegn| F[Fjern/Erstat] --> z[Indsaet/Opret iny tabel]
