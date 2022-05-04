@@ -6,6 +6,14 @@ I skal forestille jer at data er kommet fra et andet system, hvor der ikke har v
 BEMÆRK: Med udgangspunkt i uheld fra 2008-2014, er der genereret et datasæt, hvor alder og dato er randomiseret, ligeledes er placeringen ikke korrekte.
 I skal i denne opgave arbejde i pgAdmin
 
+```mermaid
+flowchart LR;
+    A[Import Data]-->B(Undersog Data);
+    B-->C{Decision};
+    C-->|Forkert datatype| d[Ret] --> z;
+    C-->|Korrekt data| e[Kopier] --> z;
+    C-->|Forbudte tegn| F[Fjern/Erstat] --> z[Indsaet/Opret iny tabel]
+```
 
 ## 1. Indsæt data fra uheld_fake.csv filen
 - 1a. Opret tabellen hvor data skal importeres:
