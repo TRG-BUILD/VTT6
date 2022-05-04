@@ -1,17 +1,23 @@
 # Uheldsdata i databaser
 
 En stor del af trafiksikkerhedsarbejdet er arbejdet med uheldsdata. Den officielle uheldsstatistik laves med uheldsdata fra Politiets registreringer der kan findes i vejman.dk.
+
 Trafikforskningsgruppen, har et mål om at få afdækket uheld bredere end politiet data. Det sker bl.a. ved at kigge på landpatientregistret.
+
 I skal forestille jer at data er kommet fra et andet system, hvor der ikke har været krav til datatyperne. Derfor skal i først importere jeres data til jeres database, lave udtræk der identificere fejl og lave en datavask for derefter at konvertere dem til korrekte datatyper. Når data er korrekte, så kan der laves nogle statistiske udtræk.
 BEMÆRK: Med udgangspunkt i uheld fra 2008-2014, er der genereret et datasæt, hvor alder og dato er randomiseret, ligeledes er placeringen ikke korrekte.
-I skal i denne opgave arbejde i pgAdmin
+
+I skal i denne opgave arbejde i pgAdmin, nedeståend flow diagram, opsumere delopgave 1-3.
 
 ```mermaid
 flowchart LR;
     A[Import Data]-->C{Undersog Data};
-    C-->|Forkert datatype| d[Ret] --> z;
-    C-->|Korrekt data| e[Kopier] --> z;
-    C-->|Forbudte tegn| F[Fjern/Erstat] --> z[Indsaet/Opret iny tabel]
+    C--> D[Forkerte datatyper];
+    C--> E[korrekte data] ;
+    C--> F[Forbudte tegn] ;
+    E --> G[(Opret ny tabel)] --> H[Indsaet data i tabel];
+    D --> G;
+    F --> G;
 ```
 
 ## 1. Indsæt data fra uheld_fake.csv filen
