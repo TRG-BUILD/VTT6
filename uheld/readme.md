@@ -15,9 +15,9 @@ flowchart LR;
     C--> D[Forkerte datatyper];
     C--> E[korrekte data] ;
     C--> F[Forbudte tegn] ;
-    E --> G[(Opret ny tabel)] --> H[Indsaet data i tabel];
-    D --> G;
-    F --> G;
+    E --> |Behold| G[(Indsaet data i ny tabel)];
+    D --> |Konverter| G;
+    F --> |Fjern/Erstat| G;
 ```
 
 ## 1. Indsæt data fra uheld_fake.csv filen
