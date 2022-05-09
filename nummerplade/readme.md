@@ -18,7 +18,7 @@ I finder pladelib.py, hvor logikken til de enkelte funktioner skal skrives, nede
 
 ```mermaid
 flowchart LR;
-    A[Testplade];
+    A[Nummerplade];
     C{Er laengden korrekt} ;
     D{Er formattet ok};
     F[Falsk];
