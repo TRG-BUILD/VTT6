@@ -6,6 +6,17 @@ Trafikforskningsgruppen råder over en LiDAR til opsætning for at registrere tr
 
 I denne opgave har I fået et output fra pylidartracker, der har behandlet lidar data I krydset ved Create [Rendburgsgade/Nyhavnsgade](https://www.openstreetmap.org/#map=19/57.04797/9.92835)
 
+---
+
+## Prøv at svare på disse spørgsmål, før du går igang.
+
+* Hvordan sikre man at et nyt plot er tegnet på allerede existerende billede?
+* Hvilken rolle spiller plt.show() når du laver plots med matplotlib?
+* Hvordan plotter man et billede I et bestemt koordinatsystem i matplotlib?
+* Hvordan konverter man grader til radianer med python?
+* Beskriv hvad for nogle datatyper der findes i LIDAR data efter du har læst JSON filen?
+* Hvilken datastruktur skal du bruge til at lagre et track, og en samling af tracks?
+* Til dit valg af datastruktur fra sidste spørgsmål, hvordan itererer du over dit samling af tracks?
 
 ---
 
