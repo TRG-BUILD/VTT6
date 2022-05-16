@@ -11,9 +11,9 @@ a(GIS, 5 semester);
 b(LinearAlgebra, 2. semester);
 c(Vej og Trafikdatabehandlingskurset);
 d(Bachelor/Diplomprojekt);
-e(Trafikteknik);
-f(Statistik);
-g(Afgangsprojekt);
+e(Trafikteknik, 7.);
+f(Statistik, 8.);
+g(Afgangsprojekt, 10.);
 
 a-->c;
 b-->c;
