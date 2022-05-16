@@ -19,6 +19,7 @@ I denne opgave har I fået et output fra pylidartracker, der har behandlet lidar
 * Til dit valg af datastruktur fra sidste spørgsmål, hvordan itererer du over dit samling af tracks?
 
 ---
+## Opgave
 
 1. Indlæs config.json, lav variabler som du skal bruge senere
 2. Indlæs ortofoto og plot det på en måde hvor x og y er I UTM koordinatsystem
