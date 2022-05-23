@@ -1,6 +1,6 @@
 # ITSplatform Nord data
 
-Vi skal importere filen bil_import_2022.csv til en pandas dataframe.
+Vi skal importere filen data/bil_import_2022.csv til en pandas dataframe.
 
 1. Der skal dannes et overblik over dataene. Hvad er indholdet, hvordan er datatyperne?
 2. Få et overblik over dine data, lav forskellige forespørgsler på dataframen
