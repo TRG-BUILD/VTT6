@@ -9,7 +9,7 @@ flowchart LR;
 
 a(GIS, 5 semester);
 b(LinearAlgebra, 2. semester);
-c(Vej og Trafikdatabehandlingskurset);
+c(Vej og Trafikdatabehandling);
 d(Bachelor/Diplomprojekt);
 e(Trafikteknik, 7.);
 f(Statistik, 8.);
