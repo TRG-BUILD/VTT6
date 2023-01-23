@@ -1,6 +1,6 @@
 # ComputerVision til udtræk af data fra billedeoptagelser
 
-I det seneste år til er tilgængeligheden af forskellige computervision algoritmer eksploderet.
+Tilgængeligheden af forskellige computervision algoritmer er de senere år eksploderet.
 
 Dette gør det idag er blevet meget nemt at behandle data indhentet fra filmoptagelser i virkeligheden.
 Indenfor trafik området er især en type analyse benyttet: nummerplade analyser.

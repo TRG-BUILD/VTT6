@@ -1,4 +1,4 @@
-# Vej- og Trafikdatabehandling 6. semester
+t # Vej- og Trafikdatabehandling 6. semester
 
 Et repository der indeholder python and sql øvelser for Vej- og trafikdatabehandling on AAU Build
 

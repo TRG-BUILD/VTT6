@@ -52,7 +52,7 @@ Spørg jer selv:
 ## 4. Rens data
 - 4a. Opret en ny tabel, kaldet uheldsdata, (se spg 1) med de korrekte datatyper
 - 4b. Indsæt data fra uheldsdata_import
-- 4c. Der Mangler et uheld, indsæt dette: Egenparten 16 år gammel har den 28 juli 2012 styrtet på knallert på 555675.17,6322592.93
+- 4c. Der Mangler et uheld, indsæt dette: Egenparten 16 år gammel har den 21. august 2012 styrtet på knallert på 555675.17,6322592.93
 
 
 
@@ -68,8 +68,8 @@ Spørg jer selv:
 
 
 
-## 7. Bearbejde data af hensyn til egenpart = Bike
-- 7a. Gentag spørgsmål 5b. men kun hvor egenpart er Bike
+## 7. Bearbejde data af hensyn til egenpart = Pedestrian with counterpart
+- 7a. Gentag spørgsmål 5b. men kun hvor egenpart er Pedestrian with counterpart
 
 
 

@@ -32,25 +32,25 @@ DELIMITER ',' csv header;
 -- 2. Få et overblik over dine data
 -- Spørg jer selv:
 --  * Bør datatyperne være sat anderledes end varchar?
---  * Hvad bør ændes?
+--  * Hvad bør ændres?
 
 
 -- 3. Rens data
 -- 3a. Opret en ny tabel, kaldet uheldsdata, (se spg 1) med de korrekte datatyper
 -- 3b. Indsæt data fra uheldsdata_import
--- 3c. Der Mangler et uheld, indsæt dette: Egenparten 16 år gammel har den 28 juli 2012 styrtet på knallert på 555675.17,6322592.93
+-- 3c. Der Mangler et uheld, indsæt dette: Egenparten 16 år gammel har den 21 august 2012 styrtet på knallert på 555675.17,6322592.93
 
 
 
 -- 4. Lidt statistik
 -- 4a. Hvor mange uheld var der i 2009
--- 4b. Hvordan er de fordelt på egenpart, og hvad er gennemsnitalderen
+-- 4b. Hvordan er de fordelt på egenpart, og hvad er gennemsnitsalderen
 
 
 
 -- 5. Bearbejd data af hensyn til alder
 -- 5a. Opdater uheldstabellen med aldersintervaller i intervallerne 0-15, 16-17, 18-24, 25-34, 35-44, 45-54, 55-64, 65-74, 75-84 og 85+
--- 5b. Hvor mange uheld er der i hvertfald interval og hvad er gennemsnitsalderen samt 10 og 90 % fraktilen
+-- 5b. Hvor mange uheld er der ihvertfald interval og hvad er gennemsnitsalderen samt 10 og 90 % fraktilen
 
 
 
