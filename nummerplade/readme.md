@@ -22,7 +22,7 @@ flowchart LR;
     C{Er laengden korrekt} ;
     D{Er formattet ok};
     F[Falsk];
-    T[Sandt]
+    T[Sand]
     A-->C;
     C --- k[Ja] --- D;
     C --- L[Nej] --- F;
