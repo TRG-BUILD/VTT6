@@ -84,3 +84,11 @@ Det er en forudsætning for at løse opgaverne, at selvstudierne er gennemført
 Opgavernes løsning vil danne baggrund for den mundtlige eksamen.
 
 Kurset er fordelt på 10 kursusgange af 3.5 timer.
+
+
+# Kursetsforløb
+
+| 1                |   2 | 3   | 4       |   5 |  6 |   7 |   8 |   9 | 10                   |
+|------------------|-----|-----|---------|-----|----|-----|-----|-----|----------------------|
+| Introduktion+SQL | SQL | SQL | Python | Python | Python | Python | Python | Python | Opsamling+Spørgetime |
+
