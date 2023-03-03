@@ -16,27 +16,39 @@ I denne opgave har vi kørt denne video gennem et computervision system og fået
 I finder pladelib.py, hvor logikken til de enkelte funktioner skal skrives, nedestående flowchart beskriver ligeledes flowet af pladelib.py
 
 
+
+## 1. Udfyld de angivne funktioner i pladelib.py
+
 ```mermaid
 flowchart LR;
     A[Nummerplade];
     C{Er laengden korrekt} ;
     D{Er formattet ok};
     F[Falsk];
-    T[Sand]
+    T[Sandt]
     A-->C;
     C --- k[Ja] --- D;
     C --- L[Nej] --- F;
     D --- M[Ja] --- T;
     D --- N[Nej] --- F
-    
-    
 ```
-
-## 1. Udfyld de angivne funktioner i pladelib.py
-
 I pladelib finder i 4 funktioner, den ene samler de to andre og main() står for at gøre pladelib.py til et program der også kan bruges selvstændigt.
 
 ## 2. Udfyld funktionerne I alpr_analysis.py
+
+
+```mermaid
+flowchart LR;
+    A[Analyser Video];
+    B[Gem rådata];
+    C{Er pladen ok?};
+    T[Gem]
+    F[Forkast]
+    A-->B;
+    B-->C;
+    C --- r[ja] --- T;
+    C --- q[nej] --- F
+```
 
 I denne opgave, skal vi vores bibliotek pladelib.py importeres, hvor vi så har adgang til is_plate_ok() funktionen. Denne bruger vi til at validere vores input fil.
 
